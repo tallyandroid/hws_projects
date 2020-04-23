@@ -10,7 +10,7 @@ func getHaterStatus(weather: String) -> String? {
 }
 
 var status: String?
-status = getHaterStatus(weather: "rainy")
+status = getHaterStatus(weather: "rainy")!
 
 if let unwrappedStatus = status {
     // unwrappedStatus contains a non-optional string
