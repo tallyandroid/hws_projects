@@ -45,5 +45,13 @@ var allAlbums: [Album] = [taylorSwift, fearless, iTunesLive]
 
 for album in allAlbums {
     print(album.getPerformance())
+    
+    if let studioAlbum = album as? StudioAlbum {
+        print(studioAlbum.studio)
+    } else if let liveAlbum = album as? LiveAlbum {
+        print(liveAlbum.location)
+    }
 }
+
+
 
