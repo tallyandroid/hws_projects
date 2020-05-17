@@ -1,18 +1,10 @@
 import UIKit
 
-for i in 1...10 {
-    print("\(i) x 10 is \(i * 10)")
-}
+var i = 1
 
-var str = "Fakers gonna"
-
-for _ in 1...5 {
-    str += " fake"
-}
-
-print(str)
-
-//half range operator
-
-1 ..< 5
+//while i <= 10 {
+//    print(i)
+//
+//    i += 1
+//}
 
