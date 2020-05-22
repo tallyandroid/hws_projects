@@ -19,6 +19,10 @@ class ViewController: UITableViewController {
             if let startWords = try? String(contentsOf: startWordsURL) {
                 allWords = startWords.components(separatedBy: "\n")
             }
+            
+            if allWords.isEmpty {
+                allWords = ["silkworm"]
+            }
         }
     }
 
