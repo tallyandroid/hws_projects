@@ -78,7 +78,7 @@ class ViewController: UITableViewController {
     }
     
     func isPossible(word: String) -> Bool {
-        return true
+        guard var tempWord =  title?.lowercased() else {return false}
     }
     
     func isOriginal(word: String) -> Bool {
