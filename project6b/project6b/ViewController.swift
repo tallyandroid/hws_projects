@@ -48,6 +48,10 @@ class ViewController: UIViewController {
         view.addSubview(label3)
         view.addSubview(label4)
         view.addSubview(label5)
+        
+        let viewsDictionary = ["label1": label1, "label2": label2, "label3": label3, "label4": label4, "label5": label5]
+        
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[label1]", options: <#T##NSLayoutConstraint.FormatOptions#>, metrics: <#T##[String : Any]?#>, views: <#T##[String : Any]#>))
     }
 
 
