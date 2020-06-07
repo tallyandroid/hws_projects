@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C127ECF5248C8CC300C071E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127ECF4248C8CC300C071E4 /* MapViewController.swift */; };
 		C16B338D2484CBCB001FE0CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B338C2484CBCB001FE0CD /* AppDelegate.swift */; };
 		C16B338F2484CBCB001FE0CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B338E2484CBCB001FE0CD /* SceneDelegate.swift */; };
-		C16B33912484CBCB001FE0CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B33902484CBCB001FE0CD /* ViewController.swift */; };
+		C16B33912484CBCB001FE0CD /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B33902484CBCB001FE0CD /* ConversionViewController.swift */; };
 		C16B33942484CBCB001FE0CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16B33922484CBCB001FE0CD /* Main.storyboard */; };
 		C16B33962484CBCD001FE0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16B33952484CBCD001FE0CD /* Assets.xcassets */; };
 		C16B33992484CBCD001FE0CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16B33972484CBCD001FE0CD /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C127ECF4248C8CC300C071E4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C16B33892484CBCB001FE0CD /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16B338C2484CBCB001FE0CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16B338E2484CBCB001FE0CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C16B33902484CBCB001FE0CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16B33902484CBCB001FE0CD /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		C16B33932484CBCB001FE0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16B33952484CBCD001FE0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16B33982484CBCD001FE0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +103,9 @@
 			children = (
 				C16B338C2484CBCB001FE0CD /* AppDelegate.swift */,
 				C16B338E2484CBCB001FE0CD /* SceneDelegate.swift */,
-				C16B33902484CBCB001FE0CD /* ViewController.swift */,
+				C16B33902484CBCB001FE0CD /* ConversionViewController.swift */,
 				C16B33922484CBCB001FE0CD /* Main.storyboard */,
+				C127ECF4248C8CC300C071E4 /* MapViewController.swift */,
 				C16B33952484CBCD001FE0CD /* Assets.xcassets */,
 				C16B33972484CBCD001FE0CD /* LaunchScreen.storyboard */,
 				C16B339A2484CBCD001FE0CD /* Info.plist */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16B33912484CBCB001FE0CD /* ViewController.swift in Sources */,
+				C16B33912484CBCB001FE0CD /* ConversionViewController.swift in Sources */,
 				C16B338D2484CBCB001FE0CD /* AppDelegate.swift in Sources */,
 				C16B338F2484CBCB001FE0CD /* SceneDelegate.swift in Sources */,
+				C127ECF5248C8CC300C071E4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
